@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: #fffacd;
+	width:800px;
+}
+
+
+nuv{
+	width:100%;
+	color:#555;
+	padding-bottom:5px;
+	border-top:20px;
+	border-bottom:20px;
+	background-color: #fff;
+}
+
+ul{
+	margin: 0px;
+	padding:0px;
+	text-align:center;
+	display:flex;
+}
+
+a{
+	display:block;
+	margin:5px;
+	padding:5px;
+	text-decoration:none;
+	width:180px;
+}
+
+li{
+	list-style-type:none;
+	font-weight:bolder;
+	
+}
+li.currentgo {
+	background-color:#FFFFEE;
+}
+
+li.profilego {
+	background-color:#FFEEFF;
+}
+li.newsgo {
+	background-color:#EEFFFF;
+}
+li.contactgo {
+	background-color:#FFDBC9;
+}
+li.currentgo a:hover{
+	border-bottom:5px solid #FF0;
+}
+
+li.profilego a:hover{
+	border-bottom:5px solid #F0F;
+}
+li.newsgo a:hover{
+	border-bottom:5px solid #0FF;
+}
+li.contactgo a:hover{
+	border-bottom:5px solid #FA0;
+}
+
+
+h1{	color: #fff;
+	padding: 15px;
+	border: 5px  #fff;
+	font-family:"ü‡ÉSÉVÉbÉNëÃ";
+}
+
+p.newpic{
+	margin:50px;
+}
+
+p.infobox{
+	height:200px;
+	overflow:scroll;
+	border:#fff 5px dashed;
+	background-color: #FFFFEE;
+	width:430px;
+	float:left;
+	margin:20px
+}
+
+a.twitter-timeline{
+	overflow:scroll;
+	clear:left;
+	float:right;
+}
+
+h3{	
+	color:#fff;
+	background-color: #ffd700;
+}
+
+h1.nws1{
+	background: linear-gradient(to bottom, #00bfff, #fff);
+}
+
+article{
+	background-color:#FFF;
+	width700px;
+	margin: 50px;
+}
+h2{
+	text-align:center;
+}
+a.date{
+	text-align:right;
+}
+p.articletext{
+	padding:50px;
+}
+
+h1.prf1{
+	background: linear-gradient(to bottom, #ff69b4, #fff);
+}
+
+a.profm{
+	width:300px;
+	height:600px:
+	float:left;
+}
+
+table{	padding:10px;
+	background-color: #fff;
+	border-radius:50px;
+	border:solid 1px #ffd5ec;
+	width:488px;
+	margin:10px;
+	clear:left;
+	float:right;
+}
+
+tr{
+	border:solid 1px #ffd5ec;
+	padding:7px 20px;
+}
+
+td{	padding:7px 20px;
+	background-color:#ead9ff;
+	border-radius:30px;
+	border:solid 1px #ffd5ec;
+}
+
+h1.contact{
+	background: linear-gradient(to bottom, #FA0, #fff);
+}	
